@@ -1,0 +1,42 @@
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+*.test
+*.out
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Database
+*.sqlite
+*.db
+
+# Docker
+postgres_data/
+redis_data/
+
+# Docs
+docs/docs.go
+docs/swagger.json
+
+# Certificates
+*.pem
+*.key
+*.crt
